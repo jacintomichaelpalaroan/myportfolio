@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*end of essential css, start of hero*/
+.contianer-fluid{
+	width: 100%;
+	height: 700px;
+}
+.jumbotron-fluid{
+	background-image: url("../img/header2.jpg");
+	background-size: cover;
+	color: white;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+	font-family: 'Oxygen', sans-serif;
+}
+.jumbotron-fluid > .container{
+	text-align: center;
+	font-size: 25px;
+}
+.jumbotron-fluid > .container > img{
+	border-radius: 50%;
+	margin-top: 20px;
+}
+/*start of intro*/
+body > div.row > div.intro{
+	text-align: center;
+	padding-bottom: 10px;
+	background-color: #faa76c;
+	font-family: 'Oxygen', sans-serif;
+}
+body > div.row > div.intro > h3{
+	font-size: 40px;
+	font-weight: 600;
+}
+body > div.row > div.intro > p{
+	font-size: 20px;
+	font-weight: 600;
+}
+/*start of skills and tools*/
+body > div.skills{
+	background-color:  #faa76c;
+	padding-bottom: 20px;
+	font-family: 'Oxygen', sans-serif;
+}
+body > div.skills > div#subskills div.card-body{
+	background-color: #dbd7d2;
+	font-weight: 600;
+}
+body > div.skills > div#subskills div.card-body ul{
+	list-style: none;
+}
+body > div.skills > div#tools div.card-body{
+	background-color: #dbd7d2;
+	font-weight: 600;
+}
+body > div.skills > div#tools div.card-body ul{
+	list-style: none;
+}
+/*start of portfolio*/
+body > div.row > div.portfolio{
+	text-align: center;
+	margin: 20px  0;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 600;
+}
+body > div.row > div.portfolio a{
+	text-decoration: none;
+	color: white;
+}
+/*start of contact details*/
+body > div.communicate{
+	background-color:  #e5e8ed;
+}
+body > div.row > div.connect{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Oxygen', sans-serif;
+}
+body > div.row > div.connect > h3{
+	font-weight: 500;
+}
+body > div.row > div.contact{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 15px
+	font-family: 'Oxygen', sans-serif;
+}
+body > div.row > div.contact > h3{
+	font-weight: 500;
+}
+h1.name{
+	font-family: 'Cambay', sans-serif;
+	/*font-family: 'Alegreya SC', serif;*/
+}
+p.developer{
+	font-family: 'Alegreya SC', serif;
+}
+div.skills{
+	background-image: url("../img/blur.jpg");
+	background-size: cover;
+}
+h1.projects{
+	/*font-family: 'Cambay', sans-serif;*/
+	font-family: 'Oxygen Mono', monospace;
+	font-weight: 600px;
+}
+h3.header{
+	/*font-family: 'Cambay', sans-serif;*/
+/*font-family: 'Oxygen Mono', monospace;*/
+	font-family: 'Alegreya SC', serif;
+}
+body > footer.footer{
+	text-align: center;
+	background-color: grey;
+	color: white;
+}
+/*start for responsive css*/
+/*mobile -sm*/
+@media only screen and (max-width: 450px){
+	.jumbotron-fluid > .container > img{
+		border-radius: 50%;
+	}
+	body > div.skills > div#subskills{
+		margin: 0px 0px 10px 0px;
+	}
+	body > div.row > div.connect{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	body > div.row > div.contact{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+}
